@@ -38,6 +38,25 @@ dependencies:
   flutter:
     sdk: flutter
   video_player: ^2.4.7
+```
+
+## App Screenshots
+
+### Dark Theme
+
+<div align="left">
+
+<img src= "https://github.com/Zimil-Patel/parallax_scroll_effect/blob/main/snaps/img1-portrait.png" height = 510 width = 240> &nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/Zimil-Patel/parallax_scroll_effect/blob/main/snaps/img2-portrait.png" height = 510 width = 240> &nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/Zimil-Patel/parallax_scroll_effect/blob/main/snaps/img3-portrait.png" height = 510 width = 240>
+
+<img src= "https://github.com/Zimil-Patel/parallax_scroll_effect/blob/main/snaps/img4-portrait.png" height = 510 width = 240> &nbsp;&nbsp;&nbsp;&nbsp; <img src= "https://github.com/Zimil-Patel/parallax_scroll_effect/blob/main/snaps/img5-portrait.png" height = 510 width = 240> &nbsp;&nbsp;&nbsp;&nbsp;
+
+</div>
+
+
+## Video Preview 🎥
+
+
+https://github.com/Zimil-Patel/parallax_scroll_effect/assets/112332000/eea51caa-bcf8-4067-8122-89b2f2ce6be3
 
 
 
