@@ -3,10 +3,10 @@ import 'package:parallax_scroll_effect/components/parallax_class.dart';
 import 'package:video_player/video_player.dart';
 
 class VideoCard extends StatefulWidget {
-  const VideoCard({super.key, required this.videoPath});
+  const VideoCard({super.key, required this.videoPath, required this.isSelected});
 
   final String videoPath;
-
+  final bool isSelected;
   @override
   State<VideoCard> createState() => _VideoCardState();
 }
@@ -39,7 +39,7 @@ class _VideoCardState extends State<VideoCard> {
   @override
   Widget build(BuildContext context) {
     return AnimatedContainer(
-      margin: const EdgeInsets.symmetric(vertical: 32, horizontal: 16),
+      margin:  widget.isSelected ? EdgeInsets.symmetric(vertical: 16, horizontal: 4) : EdgeInsets.symmetric(vertical: 38, horizontal: 16) ,
       duration: const Duration(milliseconds: 250),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(16),

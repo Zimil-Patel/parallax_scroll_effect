@@ -12,6 +12,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   late PageController _pageController;
+  int selectedIndex = 0;
 
   @override
   void initState() {
@@ -35,9 +36,13 @@ class _HomePageState extends State<HomePage> {
             height: MediaQuery.of(context).size.height * 0.7,
             child: PageView.builder(
               controller: _pageController,
+              onPageChanged: (value) => setState(() {
+                selectedIndex = value;
+              }),
               itemCount: 5,
               itemBuilder: (context, index) => VideoCard(
                 videoPath: videos[index],
+                isSelected: selectedIndex == index,
               ),
             ),
           ),
